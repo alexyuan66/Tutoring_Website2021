@@ -1,0 +1,44 @@
+[
+  {
+    "tutorType": "Tutor",
+    "tutorUsername": "alexyuan66",
+    "tutorPassword": "bue",
+    "tutorCall": "zoom",
+    "tutorAreas": "science"
+  },
+  {
+    "tutorType": "Tutor",
+    "tutorUsername": "alexyuan55",
+    "tutorPassword": "bue",
+    "tutorCall": "skype",
+    "tutorAreas": "science"
+  },
+  {
+    "tutorType": "Tutor",
+    "tutorUsername": "snoop",
+    "tutorPassword": "bue",
+    "tutorCall": "hangouts",
+    "tutorAreas": "language arts"
+  },
+  {
+    "tutorType": "Tutor",
+    "tutorUsername": "test1",
+    "tutorPassword": "bue",
+    "tutorCall": "discord",
+    "tutorAreas": "social studies"
+  },
+  {
+    "tutorType": "Tutor",
+    "tutorUsername": "test3",
+    "tutorPassword": "bue",
+    "tutorCall": "discord",
+    "tutorAreas": "social studies"
+  },
+  {
+    "tutorType": "Tutor",
+    "tutorUsername": "alexy",
+    "tutorPassword": "bue",
+    "tutorCall": "discord",
+    "tutorAreas": "social studies"
+  }
+]

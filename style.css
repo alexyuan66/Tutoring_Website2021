@@ -1,0 +1,434 @@
+/*
+    Student name: Alexander Yuan
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: acumin-pro, sans-serif, Arial;
+}
+.login-nav {
+    overflow: hidden;
+    background: linear-gradient(to right, green, yellow);
+    padding-right: 4%;
+    padding-left: 4%;
+}
+.nav-title {
+    float: left;
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size:18.5px;
+}
+.nav-elements {
+    color: black;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 16px;
+    font-size: 14.5px;
+}
+#nav-hover:hover{
+    color: white;
+    
+}
+.nav-dropdown{
+    float: right;
+    overflow: hidden;
+}
+.nav-dropdown:hover button{
+    color:white;
+}
+.nav-drop-button {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 16px;
+    font-size: 14.5px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+}
+.drop-content {
+    display: none;
+    z-index: 2;
+    position: absolute;
+    background-color:white;
+    min-width: 130px;
+}
+.drop-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size:14.5px;
+    display: block;
+    text-align: left;
+}
+.drop-content a:hover {
+  background-color: #ddd;
+}
+.nav-dropdown:hover .drop-content {
+  display: block;
+}
+.login-background {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(education.jpg);
+    background-size:cover;
+    background-position: center;
+    position:absolute;
+}
+.login-white {
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px;
+    overflow:hidden;
+}
+.login-white-2 {
+    height: 495px;
+    width: 500px;
+    background-color: white;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px;
+    overflow:hidden;
+}
+.login-white-3 {
+    height: 435px;
+    width: 500px;
+    background-color: white;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px;
+    overflow:hidden;
+}
+.button-area {
+    width: 220px;
+    margin: 35px auto 20px auto;
+    position:relative;
+    border-radius: 35px;
+    box-shadow: 0 0 20px 9px #B2D3C2;
+}
+.button-area-2 {
+    width: 220px;
+    margin: 7px auto;
+    position:relative;
+    
+}
+.slide-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+.slide-btn-2 {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#login-button {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    border-radius: 30px;
+    transition: 0.5s;
+    background: linear-gradient(to right, green, yellow);
+}
+.login-form {
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.register-form {
+    top: 45px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.login-text {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background:transparent;
+}
+.registration-text {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background:transparent;
+}
+.registration-select {
+    width: 100%;
+    padding: 10px 0;
+    margin: 1px 0;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background:transparent;
+    color:grey;
+}
+.registration-dob {
+    width: 100%;
+    padding: 7px 0;
+    margin: 1px 0;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background:transparent;
+    color:gray;
+}
+.registration-dob-2 {
+    width: 100%;
+    padding: 0px 0;
+    margin: 15px 0 0 0;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    outline:none;
+    background:transparent;
+    font-weight:bold;
+    
+    
+}
+.login-submit {
+    width: 75%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 0;
+    outline:none;
+    border-radius: 30px;
+    background: linear-gradient(to right, green, yellow);
+}
+.login-checkbox {
+    margin:25px 10px 5px 0;
+}
+.login-agree {
+    color: black;
+    font-size:12px;
+    bottom:79px;
+    position:absolute;
+}
+#login-student {
+    left: 120px;
+}
+#login-tutor {
+    left: 600px;
+}
+.login-register {
+    font-size: 13px;
+    text-align: center;
+}
+.register-link {
+    text-decoration: none;
+    color: #89D1FE;
+}
+.register-link:hover {
+    border-bottom: 1px solid #89D1FE
+}
+.login-footer {
+    overflow: hidden;
+    background-color: transparent;
+    padding-left: 0;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}
+.login-created {
+    float: left;
+    color:white;
+    font-size: 12px;
+}
+.clear {
+    clear: both;
+    line-height: 0;
+}
+.student-registration {
+    text-align: center;
+    padding: 10px 30px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.alert {
+    margin: 0px auto;
+    padding: 5px;
+    width: 50%;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+.closebtn {
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.register-alert {
+    margin: 0px auto;
+    padding: 5px;
+    width: 50%;
+    background-color:yellow;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#log-out {
+      text-align: center;
+      margin: 210px auto;
+}
+.log-out-2 {
+    text-decoration: none;
+    color:#89D1FE;
+    font-size:14px;
+}
+.log-out-2:hover {
+    border-bottom: 1px solid #89D1FE;
+}
+th, td {
+    font:14px 'Segoe UI';
+}
+table, th, td {
+    border: solid 1px #ddd;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+}
+caption {
+    caption-side: bottom;
+    font-size:12px;
+    font-weight:600;
+}
+th {
+    font-weight:bold;
+}
+#show-data {
+    margin-left: 20px;
+    float: left
+    
+}
+#show-data-2 {
+    margin-left: 10px;
+    float: left
+    
+}
+.tutor-avail {
+    padding-left: 20px;
+    float: left;
+    font-size: 14px;
+    padding-top: 40px;
+}
+.tutor-avail-div {
+    margin-top: 20px;
+}
+.tutor-avail-div-2 {
+    margin-top: 40px;
+}
+.request-form {
+    margin-left: 55px;
+    float: left;
+}
+.request-form-text {
+    padding-bottom:1px;
+    margin-top: 9px;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 1px solid #ddd;
+    outline:none;
+    background:transparent;
+    width: 180%;
+}
+.request-form-text-2 {
+    padding-bottom:1px;
+    margin-top: 9px;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 1px solid #ddd;
+    outline:none;
+    background:transparent;
+    width: 120%;
+}
+#request-form-submit {
+    cursor: pointer;
+    margin: 9px auto;
+    text-align: center;
+    padding: 3px;
+    outline:none;
+    float:right;
+    
+}
+#request-form-submit-2 {
+    cursor: pointer;
+    margin: 9px auto;
+    text-align: center;
+    padding: 3px;
+    outline:none;
+    float:left;
+    
+}
+
+.request-form-select {
+    width: 180%;
+    margin-top:9px;
+    padding-bottom:1px;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 1px solid #ddd;
+    outline:none;
+    background:transparent;
+    color:grey;
+}
+.request-form-select-2 {
+    width: 120%;
+    margin-top:9px;
+    padding-bottom:1px;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 1px solid #ddd;
+    outline:none;
+    background:transparent;
+    color:grey;
+}

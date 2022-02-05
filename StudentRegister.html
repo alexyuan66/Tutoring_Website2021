@@ -1,0 +1,59 @@
+<!--Student Name: Alexander Yuan -->
+
+<html>
+    <head>
+        <title> Student Register </title>
+        <link rel="stylesheet" type="text/css" href="css\style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+        <script type="text/javascript" rel="script" src="js\login.js" defer></script>
+    </head>
+    
+    <body>
+        <div class="login-nav">
+            <a href="index.html" class="nav-title">Student-Tutor Tutoring</a>
+            <div class="nav-dropdown">
+                <button class="nav-drop-button">Create 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="drop-content">
+                    <a href="StudentRegister.html">Student</a>
+                    <a href="TutorRegister.html">Tutor</a>
+                </div>
+            </div>
+            <a href="index.html" class="nav-elements" id="nav-hover">Login</a>
+        </div>
+        <br class="clear"/>
+        <div class="login-background">
+            <div class="login-white-3">
+                <div class="button-area-2">
+                    <p class="student-registration">Student Registration</p>
+                </div>
+                <form id="login-student" class="register-form" action="http://localhost:8081/studentsignup" method="GET">
+                    <input type="hidden" value="Student" name="persontype_get">
+                    <input type="text" class="registration-text" placeholder="Username" name="studentusername_get" required>
+                    <input type="password" class="login-text" id="password" placeholder="Password" name="studentpass_get" onchange='confirm_pass();' required>
+                    <input type="password" class="login-text" id="confirm_password" placeholder="Confirm Password" onchange='confirm_pass();' required>
+                    <input type="text" class="registration-dob-2" placeholder="Birthday:" read-only>
+                    <input type="date" name="dob" class="registration-dob" value="dob" name="studenbirth_get" required>
+                    <input type="text" class="registration-dob-2" placeholder="Preferred Calling Method: " read-only>
+                    <select class="registration-select" name="studentcall_get" required>
+                        <option value="calling-method">Choose Method</option>
+                        <option value="discord">Discord</option>
+                        <option value="skype">Skype</option>
+                        <option value="zoom">Zoom</option>
+                        <option value="hangouts">Hangouts</option>
+                    </select>
+                    <input type="checkbox" class="login-checkbox" name="studentagree_get" required><span class="login-agree">I agree to the terms & conditions</span>
+                    <input type="submit" id="submit" class="login-submit" value="Register" name="studentsubmit_get" disabled>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="login-footer">
+            <p class="login-created">Website created and maintained by Alex Yuan</p>
+        </div>
+        </footer>
+        
+    </body>
+    
+</html>

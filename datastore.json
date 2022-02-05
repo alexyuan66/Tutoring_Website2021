@@ -1,0 +1,74 @@
+[
+  {
+    "type": "Student",
+    "username": "alex",
+    "password": "bue",
+    "call": "skype"
+  },
+  {
+    "type": "Student",
+    "username": "alexyuan66",
+    "password": "buepoo",
+    "call": "skype"
+  },
+  {
+    "type": "Student",
+    "username": "alexyuan6",
+    "password": "Buepoo6699",
+    "call": "skype"
+  },
+  {
+    "type": "Student",
+    "username": "alex",
+    "password": "yuan",
+    "call": "discord"
+  },
+  {
+    "type": "Student",
+    "username": "youngthug",
+    "password": "bue",
+    "call": "zoom"
+  },
+  {
+    "type": "Student",
+    "username": "snoopDawg",
+    "password": "apple",
+    "call": "skype"
+  },
+  {
+    "type": "Student",
+    "username": "demo1",
+    "password": "demo1",
+    "call": "hangouts"
+  },
+  {
+    "type": "Student",
+    "username": "student1",
+    "password": "apple",
+    "call": "zoom"
+  },
+  {
+    "type": "Student",
+    "username": "snoopDawg",
+    "password": "bue",
+    "call": "discord"
+  },
+  {
+    "type": "Student",
+    "username": "test",
+    "password": "bue",
+    "call": "skype"
+  },
+  {
+    "type": "Student",
+    "username": "test2",
+    "password": "bue",
+    "call": "zoom"
+  },
+  {
+    "type": "Student",
+    "username": "snoopy",
+    "password": "bue",
+    "call": "zoom"
+  }
+]

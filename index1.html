@@ -1,0 +1,61 @@
+<!--Student Name: Alexander Yuan -->
+
+<html>
+    <head>
+        <title> Tutoring Login </title>
+        <link rel="stylesheet" type="text/css" href="css\style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+        <script type="text/javascript" rel="script" src="js\login.js" defer></script>
+    </head>
+    
+    <body>
+        <div class="login-nav">
+            <a href="index.html" class="nav-title">Student-Tutor Tutoring</a>
+            <div class="nav-dropdown">
+                <button class="nav-drop-button">Create 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="drop-content">
+                    <a href="StudentRegister.html">Student</a>
+                    <a href="TutorRegister.html">Tutor</a>
+                </div>
+            </div>
+            <a href="index.html" class="nav-elements" id="nav-hover">Login</a>
+        </div>
+        <br class="clear"/>
+        <div class="login-background">
+            <div class="login-white">
+                <div class="button-area">
+                    <div id="login-button"></div>
+                    <button type="button" class="slide-btn">Student</button>
+                    <button type="button" class="slide-btn-2">Tutor</button>
+                </div>
+                <div class="alert">
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                    Login failed
+                </div>
+                <form id="login-student" class="login-form" action="http://localhost:8081/studentsignin" method="GET">
+                    <input type="hidden" value="Student" name="typeinput_get">
+                    <input type="text" class="login-text" placeholder="Username" name="studentusernameinput_get" required>
+                    <input type="password" class="login-text" placeholder="Password" name="studentpassinput_get" required>
+                    <input type="submit" class="login-submit"value="Log In">
+                    <p class="login-register">Don't have an account? <a href="StudentRegister.html" class="register-link">Register here</a>.</p>
+                </form>
+                <form id="login-tutor" class="login-form" action="http://localhost:8081/tutorsignin" method="GET">
+                    <input type="hidden" value="Student" name="tutortypeinput_get">
+                    <input type="text" class="login-text" placeholder="Username" name="tutorusernameinput_get" required>
+                    <input type="password" class="login-text" placeholder="Password" name="tutorpassinput_get"required>
+                    <input type="submit" class="login-submit"value="Log In">
+                    <p class="login-register">Don't have an account? <a href="TutorRegister.html" class="register-link">Register here</a>.</p>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="login-footer">
+            <p class="login-created">Website created and maintained by Alex Yuan</p>
+        </div>
+        </footer>
+        
+    </body>
+    
+</html>
