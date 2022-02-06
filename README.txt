@@ -1,3 +1,5 @@
+This is a tutoring website that I developed with HTML, CSS, and JavaScript. It runs on a webserver and includes user login and authentication. Please check out the project report for more details on the implementation process, and additional functionality!
+
 How to deploy my webpage on a local machine
 
 1.	Install node.js
