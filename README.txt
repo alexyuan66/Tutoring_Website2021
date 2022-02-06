@@ -1,4 +1,4 @@
-This is a tutoring website that I developed with HTML, CSS, and JavaScript. It runs on a webserver and includes user login and authentication. Please check out the project report for more details on the implementation process, and additional functionality!
+This is a tutoring website that I developed with HTML, CSS, and JavaScript. It runs on a webserver and includes user login and authentication. Please check out the project report for more details on the implementation process, additional functionality, and graphics!
 
 How to deploy my webpage on a local machine
 
