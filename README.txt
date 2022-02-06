@@ -13,5 +13,3 @@ How to deploy my webpage on a local machine
 
 After that, you can use a browser to open index.html in the public directory.
 
-https://drive.google.com/file/d/1kU3XbZPLB8NkKvD05dj1onB8teZzP5Pc/view?usp=sharing
-
